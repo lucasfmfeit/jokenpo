@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="jogo">
+        <div class="jogador">
+            <img src="images/papel.jpg" id="jogador-1" onclick="iniciar(1)" alt="Papel">
+            <img src="images/pedra.jpg" id="jogador-2" onclick="iniciar(2)" alt="Pedra">
+            <img src="images/tesoura.jpg" id="jogador-3" onclick="iniciar(3)" alt="Tesoura">
+        </div>
+
+        <div class="computador">
+            <img src="images/papel.jpg" id="computador-1" alt="Papel">
+            <img src="images/pedra.jpg" id="computador-2" alt="Pedra">
+            <img src="images/tesoura.jpg" id="computador-3" alt="Tesoura">
+        </div>
+    </div>
+
+    <div class="resultado">
+        <p>ESCOLHA UMA OPÇÃO</p>
+        <button onclick="reiniciar()">REINICIAR</button>
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>

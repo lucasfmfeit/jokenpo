@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.jogo {
+    display: flex;
+}
+
+.jogador, .computador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 30%;
+    opacity: .3;
+    cursor: pointer;
+}
+
+.escolha {
+    opacity: 1 !important;
+}
+
+.resultado {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 24px;
+    text-transform: uppercase;
+}
+
+button {
+    font-size: 24px;
+    padding: 4px;
+    margin-top: 16px;
+    cursor: pointer;
+}
